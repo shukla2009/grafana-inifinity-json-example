@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  datasource:
+    build: datasource
+    ports:
+      - "3001:3001"
+
+  grafana:
+    build: grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - datasource
+    volumes:
+      - ./grafana/dashboard.yaml:/etc/grafana/provisioning/dashboards/main.yaml
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+      - ./grafana/datasources/automatic.yaml:/etc/grafana/provisioning/datasources/automatic.yaml

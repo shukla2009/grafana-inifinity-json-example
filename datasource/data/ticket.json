@@ -1,0 +1,254 @@
+{
+    "regions": [
+        {
+            "name": "Asia",
+            "countries": [
+                {
+                    "name": "Japan",
+                    "cities": [
+                        {
+                            "name": "Tokyo",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Osaka",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Kyoto",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "China",
+                    "cities": [
+                        {
+                            "name": "Beijing",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Shanghai",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Guangzhou",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Shenzhen",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Europe",
+            "countries": [
+                {
+                    "name": "France",
+                    "cities": [
+                        {
+                            "name": "Paris",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Marseille",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Lyon",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Toulouse",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "Germany",
+                    "cities": [
+                        {
+                            "name": "Berlin",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Munich",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Hamburg",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Cologne",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Frankfurt",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "Spain",
+                    "cities": [
+                        {
+                            "name": "Madrid",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Barcelona",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Valencia",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Seville",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "North America",
+            "countries": [
+                {
+                    "name": "United States",
+                    "cities": [
+                        {
+                            "name": "New York",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Los Angeles",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Chicago",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Houston",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Philadelphia",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "cities": [
+                        {
+                            "name": "Toronto",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Montreal",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Vancouver",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Calgary",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "South America",
+            "countries": [
+                {
+                    "name": "Brazil",
+                    "cities": [
+                        {
+                            "name": "Sao Paulo",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Rio de Janeiro",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Brasilia",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Salvador",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Fortaleza",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "Argentina",
+                    "cities": [
+                        {
+                            "name": "Buenos Aires",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Cordoba",
+                            "minValue": 1,
+                            "maxValue": 10
+                        },
+                        {
+                            "name": "Rosario",
+                            "minValue": 1,
+                            "maxValue": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
