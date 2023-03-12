@@ -12,9 +12,10 @@ RUN npm install
 
 # Copy the rest of the application files to the working directory
 COPY app.js ./
+COPY index.js ./
 COPY data ./data
 # Expose port 3000 for the application
-EXPOSE 3000
+EXPOSE 3001
 
 # Start the application
-CMD ["node", "app.js"]
+CMD ["node", "index.js"]

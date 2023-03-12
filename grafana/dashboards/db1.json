@@ -155,7 +155,7 @@
           "source": "url",
           "type": "json",
           "uql": "parse-json\n|extend \"time\"=\"time\"\n|jsonata \"*[region in [${region:singlequote}]]\"\n|summarize \" \"=sum(\"value\") by \"region\",\"time\" ",
-          "url": "http://datasource:3001",
+          "url": "http://datasource:3001?start=${__from:date:YYYY-MM-DD}&end=${__to:date:YYYY-MM-DD}",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -292,7 +292,7 @@
           "source": "url",
           "type": "json",
           "uql": "parse-json\n|extend \"time\"=\"time\"\n|jsonata \"*[country in [${country:singlequote}]]\"\n|summarize \" \"=sum(\"value\") by \"country\",\"time\" ",
-          "url": "http://datasource:3001",
+          "url": "http://datasource:3001?start=${__from:date:YYYY-MM-DD}&end=${__to:date:YYYY-MM-DD}",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -429,7 +429,7 @@
           "source": "url",
           "type": "json",
           "uql": "parse-json\n|extend \"time\"=\"time\"\n|jsonata \"*[city in [${site:singlequote}]]\"\n|summarize \" \"=sum(\"value\") by \"city\",\"time\" ",
-          "url": "http://datasource:3001",
+          "url": "http://datasource:3001?start=${__from:date:YYYY-MM-DD}&end=${__to:date:YYYY-MM-DD}",
           "url_options": {
             "data": "",
             "method": "GET"
@@ -478,7 +478,7 @@
             "source": "url",
             "type": "json",
             "uql": "parse-json\n| extend \"time\"\n|distinct \"region\"",
-            "url": "http://datasource:3001",
+            "url": "http://datasource:3001?start=${__from:date:YYYY-MM-DD}&end=${__to:date:YYYY-MM-DD}",
             "url_options": {
               "data": "",
               "method": "GET"
@@ -525,7 +525,7 @@
             "source": "url",
             "type": "json",
             "uql": "parse-json\n| extend \"time\"\n|jsonata \"*[region in [${region:singlequote}]]\"\n|distinct \"country\"",
-            "url": "http://datasource:3001",
+            "url": "http://datasource:3001?start=${__from:date:YYYY-MM-DD}&end=${__to:date:YYYY-MM-DD}",
             "url_options": {
               "data": "",
               "method": "GET"
@@ -572,7 +572,7 @@
             "source": "url",
             "type": "json",
             "uql": "parse-json\n| extend \"time\"\n|jsonata \"*[country in [${country:singlequote}]]\"\n|distinct \"city\"",
-            "url": "http://datasource:3001",
+            "url": "http://datasource:3001?start=${__from:date:YYYY-MM-DD}&end=${__to:date:YYYY-MM-DD}",
             "url_options": {
               "data": "",
               "method": "GET"
